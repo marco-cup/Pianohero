@@ -1023,7 +1023,7 @@ void mouse(int button, int state, int x, int y)
 				glutPostRedisplay();
 			}
 		}
-		else if (game_page == 3) {				//SETTING PAGE ok
+		else if (game_page == 3) {				//SETTING PAGE oko
 			if (x > 219 && x < 366 && y > 643 && y < 846) {
 				game_page = 1; //back to menu
 				glutPostRedisplay();
