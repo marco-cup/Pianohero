@@ -1023,7 +1023,7 @@ void mouse(int button, int state, int x, int y)
 				glutPostRedisplay();
 			}
 		}
-		if (game_page == 3) {				//SETTING PAGE ok
+		else if (game_page == 3) {				//SETTING PAGE ok
 			if (x > 219 && x < 366 && y > 643 && y < 846) {
 				game_page = 1; //back to menu
 				glutPostRedisplay();
@@ -1038,9 +1038,15 @@ void mouse(int button, int state, int x, int y)
 			
 			//medium
 			else if (x > 617 && x < 911 && y > 479 && y < 660) {
-				//set the easy mode (4 notes)
+				//set the medium mode (4 notes)
 				numnote = 4;
 				game_page = 1; //back to menu
+				glutPostRedisplay();
+			}
+			else if (x > 1080 && x < 1350 && y > 508 && y < 630) {
+				//set the hard mode (5 notes)
+				numnote = 5;
+				game_page = 1; //open settings
 				glutPostRedisplay();
 			}
 			

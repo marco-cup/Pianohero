@@ -1,18 +1,18 @@
-Info,  T3516: Load ./models/models.obj
-Info,  T3516: Found a matching importer for this file format
-Info,  T3516: Import root directory is './models\'
-Error, T3516: OBJ/MTL: Unexpected illumination model (0-2 recognized)
-Info,  T3516: Entering post processing pipeline
-Info,  T3516: RemoveRedundantMatsProcess finished. 2 redundant and 1 unused materials
-Info,  T3516: TriangulateProcess finished. All polygons have been triangulated.
-Info,  T3516: Points: 0, Lines: 0, Triangles: 16, Polygons: 0 (Meshes, X = removed)
-Error, T3516: FindInvalidDataProcess fails on mesh uvcoords: All vectors are identical
+Info,  T17704: Load ./models/models.obj
+Info,  T17704: Found a matching importer for this file format
+Info,  T17704: Import root directory is './models\'
+Error, T17704: OBJ/MTL: Unexpected illumination model (0-2 recognized)
+Info,  T17704: Entering post processing pipeline
+Info,  T17704: RemoveRedundantMatsProcess finished. 2 redundant and 1 unused materials
+Info,  T17704: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T17704: Points: 0, Lines: 0, Triangles: 16, Polygons: 0 (Meshes, X = removed)
+Error, T17704: FindInvalidDataProcess fails on mesh uvcoords: All vectors are identical
 Skipping one or more lines with the same contents
-Info,  T3516: FindInvalidDataProcess finished. Found issues ...
-Error, T3516: Unable to compute tangents: UV0 and normals must be there 
+Info,  T17704: FindInvalidDataProcess finished. Found issues ...
+Error, T17704: Unable to compute tangents: UV0 and normals must be there 
 Skipping one or more lines with the same contents
-Info,  T3516: JoinVerticesProcess finished | Verts in: 29802 out: 12877 | ~56.8%
-Warn,  T3516: Mesh 0: Not suitable for vcache optimization
-Warn,  T3516: Mesh 3: Not suitable for vcache optimization
-Info,  T3516: Cache relevant are 14 meshes (9930 faces). Average output ACMR is 1.361732
-Info,  T3516: Leaving post processing pipeline
+Info,  T17704: JoinVerticesProcess finished | Verts in: 29802 out: 12877 | ~56.8%
+Warn,  T17704: Mesh 0: Not suitable for vcache optimization
+Warn,  T17704: Mesh 3: Not suitable for vcache optimization
+Info,  T17704: Cache relevant are 14 meshes (9930 faces). Average output ACMR is 1.361732
+Info,  T17704: Leaving post processing pipeline
