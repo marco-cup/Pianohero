@@ -1,0 +1,10 @@
+Daisy            1000
+Narcissus            900
+Tulip            800
+Calla            700
+Rose            600
+Hibiscus            500
+Dandelion            400
+Orchid            300
+Lily            200
+Chrysanthemum            100
